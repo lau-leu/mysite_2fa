@@ -1,10 +1,8 @@
 # Intégration de vm-ia-AO-flask
 
-Ce document décrit les modifications nécessaires pour intégrer l'application vm-ia-AO-flask avec appliweb.
+✅ **Intégration complétée avec succès !**
 
-## ⚠️ Note importante
-
-Le dépôt `vm-ia-AO-flask` n'était pas accessible lors de la configuration. Les instructions ci-dessous décrivent ce qui doit être fait pour compléter l'intégration.
+Ce document décrit les modifications effectuées pour intégrer l'application vm-ia-AO-flask (appliweb-AO-flask) avec appliweb.
 
 ## Modifications déjà effectuées dans appliweb
 
@@ -20,14 +18,13 @@ Le dépôt `vm-ia-AO-flask` n'était pas accessible lors de la configuration. Le
 - Menu: "📋 Gestion AO"
 - Lien: `{% url 'ao_proxy' path='' %}`
 
-## Modifications à effectuer dans vm-ia-AO-flask
+## Modifications effectuées dans vm-ia-AO-flask
 
-### 1. Configuration du port (config.py)
+### 1. ✅ Configuration du port
 
-Assurez-vous que l'application Flask est configurée pour écouter sur le port **5002** :
+L'application Flask est déjà configurée pour écouter sur le port **5002** dans `run.py` :
 
 ```python
-class Config:
     # Serveur Flask
     HOST = '0.0.0.0'
     PORT = 5002  # Port pour Gestion AO
