@@ -1,12 +1,12 @@
 [submodule "appliweb"]
 	path = appliweb
-	url = ssh://git@github.com:22/lau-leu/appliweb.git
+	url = https://github.com/lau-leu/appliweb.git
 [submodule "vm-ia-AO-flask"]
 	path = vm-ia-AO-flask
-	url = ssh://git@github.com:22/lau-leu/vm-ia-AO-flask.git
+	url = https://github.com/lau-leu/appliweb-AO-flask.git
 [submodule "vm-ia-chat"]
 	path = vm-ia-chat
-	url = ssh://git@github.com:22/lau-leu/vm-ia-chat.git
+	url = https://github.com/lau-leu/vm-ia-chat.git
 [submodule "vm-ia-jupyterlab"]
 	path = vm-ia-jupyterlab
-	url = ssh://git@github.com:22/lau-leu/vm-ia-jupyterlab.git
+	url = https://github.com/lau-leu/vm-ia-jupyterlab.git
