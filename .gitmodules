@@ -1,9 +1,9 @@
 [submodule "appliweb"]
     path = appliweb
     url = ssh://git@github.com:22/lau-leu/appliweb.git
-[submodule "appliweb-AO-flask"]
-    path = appliweb-AO-flask
-    url = ssh://git@github.com:22/lau-leu/appliweb-AO-flask.git
+[submodule "vm-ia-AO-flask"]
+    path = vm-ia-AO-flask
+    url = ssh://git@github.com:22/lau-leu/vm-ia-AO-flask.git
 [submodule "vm-ia-chat"]
     path = vm-ia-chat
     url = ssh://git@github.com:22/lau-leu/vm-ia-chat.git
