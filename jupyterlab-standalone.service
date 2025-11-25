@@ -7,7 +7,7 @@ Type=simple
 User=laurent
 WorkingDirectory=/home/laurent
 Environment="PATH=/usr/local/bin:/usr/bin:/bin"
-ExecStart=/usr/local/bin/jupyter lab --ip=0.0.0.0 --port=8889 --no-browser --allow-root --NotebookApp.token='' --NotebookApp.password=''
+ExecStart=/usr/local/bin/jupyter lab --ip=0.0.0.0 --port=8889 --no-browser --allow-root --NotebookApp.token='' --NotebookApp.password='' --ServerApp.base_url=/ --LabApp.default_url=/lab
 Restart=always
 RestartSec=10
 
